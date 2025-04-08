@@ -24,6 +24,7 @@ const Home = () => {
   ];
 
   return (
+    <>
     <div className="mt-[80px] relative w-full h-[60vh] md:h-[80vh] lg:h-[100vh]">
       <img
         src={home1}
@@ -44,6 +45,8 @@ const Home = () => {
           Find your new favourite items for your garden!
         </p>
       </motion.div>
+          
+    </div>
 
       <div className="bg-[#f3f0e9] py-10">
         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10 text-green-900">
@@ -80,8 +83,8 @@ const Home = () => {
           ))}
         </div>
       </div>
-      
-    </div>
+  
+    </>
   );
 };
 
