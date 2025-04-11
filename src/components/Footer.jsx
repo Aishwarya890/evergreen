@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaPinterestP, FaYoutube } from 'react-icons/fa';
+
 import footerimg from "../assets/footerimg.png";
 
 import visaLogo from "../assets/visa.png";
@@ -65,18 +66,18 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-3 uppercase">Good to Know</h4>
             <ul className="space-y-2">
-              <li><a href="#">About Us</a></li>
+              <li><a href="/about-us">About Us</a></li>
               <li><a href="#">Bulk Enquiries</a></li>
-              <li><a href="#">Customer Reviews</a></li>
+              <li><a href="/customer-reviews">Customer Reviews</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-semibold mb-3 uppercase">Connect</h4>
             <ul className="space-y-2">
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">YouTube</a></li>
+              <li><a href="https://www.facebook.com/EvenGreener/">Facebook</a></li>
+              <li><a href="https://www.instagram.com/evengreener_store/">Instagram</a></li>
+              <li><a href="https://www.youtube.com/@EvenGreenerUK">YouTube</a></li>
             </ul>
           </div>
 
@@ -91,9 +92,9 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-3 uppercase">Policies</h4>
             <ul className="space-y-2">
-              <li><a href="#">T&Cs</a></li>
-              <li><a href="#">Cookie Policy</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="/terms">T&Cs</a></li>
+              <li><a href="/cookie-privacy">Cookie Policy</a></li>
+              <li><a href="/privacy">Privacy Policy</a></li>
             </ul>
           </div>
 
